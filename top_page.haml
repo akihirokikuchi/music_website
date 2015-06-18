@@ -1,0 +1,42 @@
+!!!
+%html(lang="ja")
+  %head
+    %meta(charset="utf-8")
+    %title my music
+    %link(rel="stylesheet" type="text/css" href="stylesheets/top.css")
+
+    %body
+    %header
+      %img#logo(src="")
+    #nav
+      %ul
+        %li<
+          %a.navigation(href="") ホーム
+        %li<
+          %a.navigation(href="") このサイトについて
+        %li<
+          %a.navigation(href="") プロフィール
+        %li<
+          %a.navigation(href="") 音源一覧
+        %li<
+          %a.navigation(href="") 音源などの紹介
+    #contents-top
+      %img#main-image(src="images/cello-110981_1280.jpg" width="500px" height="400px")
+        %h1#catch-copy キャッチコピー
+
+    #contents-bottom
+      %h1 my music
+      %audio.music(src="musics/ballad_demo.mp3" controls)
+      %text.explain 軽く曲の説明
+      %br
+      %audio.music(src="" controls)
+      %text.explain 軽く曲の説明
+      %br
+      %video.music(src="" controls)
+      %text.explain 軽く動画の説明
+      %p<
+        %a#music-page(href="")音源のページへ
+
+    %footer
+      %text#mail mail: akihiro.kikuchi@engraphia.com
+      %text#copyright  copyright©2015 akihiro.kikuchi
