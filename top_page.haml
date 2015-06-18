@@ -5,7 +5,7 @@
     %title my music
     %link(rel="stylesheet" type="text/css" href="stylesheets/top.css")
 
-    %body
+  %body
     %header
       %img#logo(src="")
     #nav
@@ -26,13 +26,16 @@
 
     #contents-bottom
       %h1 my music
+      %text.music-name 曲名
       %audio.music(src="musics/ballad_demo.mp3" controls)
       %text.explain 軽く曲の説明
       %br
+      %text.music-name 曲名
       %audio.music(src="" controls)
       %text.explain 軽く曲の説明
       %br
-      %video.music(src="" controls)
+      %text.music-name 動画名
+      %video.music(width="450px" height="330px" src="videos/some_and_any.mov" controls)
       %text.explain 軽く動画の説明
       %p<
         %a#music-page(href="")音源のページへ
