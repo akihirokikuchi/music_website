@@ -7,44 +7,43 @@ body{
   );
 }
 
-
-
 header{
   width:100%;
   height:150px;
   background-image: url("../images/music-668859_1280.jpg");
   background-size: cover;
-  @include opacity(0.7)
-  }
-
-
-#nav{
-  text-align: center;
-  ul{
-    display: inline-block;
-    li{
+  @include opacity(0.7);
+  #nav{
+    padding-top:65px;
+    padding-right:20px;
+    ul{
       display: inline-block;
-      float:left;
-      width:150px;
-      list-style: none;
-      line-height:30px;
-      text-align: center;
-      background-color:black;
-      border-left:1px solid #999;
-      @include border-radius(10px);
-      .navigation{
-        text-decoration: none;
-        text-weight:bold;
-        color:white;
-        padding:20 20 10 20;
+      float:right;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        //border-left:1px solid #999;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
       }
     }
   }
 }
 
+
 #contents-top{
-  width:500px;
-  margin:auto;
+  width:100%;
   position:relative;
   #main-image{
     margin-top:30px;
@@ -54,8 +53,7 @@ header{
       position:absolute;
       bottom:0;
       right:3%;
-      text-align: center;
-      font-size:48px;
+      font-size:64px;
     }
 }
 
@@ -63,12 +61,13 @@ header{
 #contents-bottom{
   background-color: rgb(207,226,212);
   width:700px;
-  height:625px;
+  height:1111px;
   margin:auto;
   h1{
     color:black;
     font-size:40px;
-    padding-left:20px;
+    //padding-left:20px;
+    text-align: center;
   }
   .music-name{
     font-size:20px;
@@ -80,45 +79,61 @@ header{
   }
   .music{
     padding-left: 10px;
-    margin-top: 10px;
   }
 }
 
 #music-page{
   background:green;
-  font-size:20px;
+  font-size:40px;
   color:white;
   text-decoration: none;
-  padding:5px;
+  padding:8px;
   float:right;
-  width:150px;
-  margin-right:20px;
-  margin-top:20px;
+  width:300px;
+  margin-right:40px;
+  margin-top:40px;
+  border:1px solid yellow;
   @include border-radius(10px);
   @include box-shadow(0 0 10px black);
+}
+
+#music-page:hover{
+  @include box-shadow(none);
+  color:yellow;
 }
 
 
 footer{
   width:100%;
-  height:30px;
+  height:50px;
   background-color: black;
   margin-top:40px;
+  overflow:hidden;
     #mail{
       color:white;
       font-size:13px;
-      letter-spacing: 3px;
+      letter-spacing: 1px;
       float:left;
-      width:49%;
-      padding-top:5px;
+      width:60%;
+      height:30px;
       margin-left: 10px;
     }
-    #copyright{
-      color:white;
-      font-size:13px;
-      letter-spacing:3px;
+    #sitemap{
       float:right;
       width:35%;
-      padding-top:5px;
+      height:30px;
+      color:white;
+      font-size:15px;
+      letter-spacing: 2px;
+      margin-right: 10px;
+    }
+    #copyright{
+      float:right;
+      width:40%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      margin-right: 10px;
+      letter-spacing:2px;
     }
 }
