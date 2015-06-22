@@ -1,24 +1,36 @@
 @import "compass";
 
+
 body{
   @include background(
   linear-gradient(top left, rgba(188,200,213,0.75),rgba(15,82,188,0.75)),
   radial-gradient(#c00, #fff 100px)
   );
+  margin:0;
 }
 
 header{
   width:100%;
+  min-width:770px;
   height:150px;
   background-image: url("../images/music-668859_1280.jpg");
   background-size: cover;
   @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color: #aaa;
+    width:250px;
+    height:100px;
+    margin-top: 10px;
+  }
   #nav{
-    padding-top:65px;
-    padding-right:20px;
     ul{
       display: inline-block;
       float:right;
+      //margin-bottom: 50px;
+      width:500px;
+      height:100px;
+      margin-top:70px;
       li{
         display: inline-block;
         width:160px;
@@ -28,7 +40,6 @@ header{
         list-style: none;
         line-height:45px;
         background-color:black;
-        //border-left:1px solid #999;
         @include border-radius(10px);
         .navigation{
           text-decoration: none;
@@ -46,7 +57,7 @@ header{
   width:100%;
   position:relative;
   #main-image{
-    margin-top:30px;
+    margin-top:5px;
   }
     #catch-copy{
       color:white;
@@ -76,6 +87,7 @@ header{
   }
   .explain {
     margin-bottom: 10px;
+    margin-left: 10px
   }
   .music{
     padding-left: 10px;
@@ -105,35 +117,47 @@ header{
 
 footer{
   width:100%;
+  min-width:700px;
   height:50px;
   background-color: black;
-  margin-top:40px;
-  overflow:hidden;
+  margin-top:30px;
     #mail{
+
       color:white;
       font-size:13px;
       letter-spacing: 1px;
       float:left;
-      width:60%;
-      height:30px;
+      width:45%;
+      height:25px;
       margin-left: 10px;
     }
-    #sitemap{
+    #footer-link{
+      display:inline-block;
       float:right;
-      width:35%;
-      height:30px;
-      color:white;
-      font-size:15px;
-      letter-spacing: 2px;
-      margin-right: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
     }
     #copyright{
-      float:right;
-      width:40%;
+      width:50%;
       height:20px;
       color:white;
       font-size:11px;
-      margin-right: 10px;
+      float:right;
+      margin-right:15%;
       letter-spacing:2px;
+      clear:both;
     }
 }
