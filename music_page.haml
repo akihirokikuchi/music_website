@@ -1,0 +1,90 @@
+!!!
+%html(lang="ja")
+  %head
+    %meta(charset="utf-8")
+    %title 音源のページ
+    %link(rel="stylesheet" type="text/css" href="stylesheets/music_page.css")
+  %body
+    %header
+      %img#logo(src="images/music_page_header_logo_03.png")
+      #nav
+        %ul
+          %li<
+            %a.navigation(href="") ホーム
+          %li<
+            %a.navigation(href="") 音源一覧
+          %li<
+            %a.navigation(href="") プロフィール
+
+
+    #page-select
+      #page-select-background
+        %a.select(href="") 販売音源を見る
+        %a.select(href="") 過去の音源を見る
+
+
+
+
+
+    #contents-top
+      #contents-top-size
+        %h1#main-title 販売音源のページ
+        %p#page-explain
+          このページでは音楽の販売をしています。購入までの流れに関しては
+          %a#how-to-buy(href="")> こちら
+          をご覧ください
+        #page-link
+          %a#inst_link.page-link(href="#bgm") BGM
+          %a#song_link.page-link(href="#song") 歌もの
+
+
+
+    #contents-bottom
+      #bgm-section
+        %h1#bgm BGM
+        %img#bgm-image(src="images/piano-691716_1280.jpg" width="100%" height="350px")
+
+        .column
+          %p.music-name 曲名
+          %audio.musics(src="" controls)
+          %p.music-value 値段○○円
+          %p.music-explain 曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など
+          %hr
+
+        .column
+          %p.music-name 曲名
+          %audio.musics(src="" controls)
+          %p.music-value 値段○○円
+          %p.music-explain 曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など
+          %hr
+
+      #song-section
+        %h1#song SONG
+        %img#song-image(src="images/microphone-380017_1280.jpg" width="80%" height="300px")
+
+        .column
+          %p.music-name 曲名
+          %audio.musics(src="" controls)
+          %p.music-value 値段○○円
+          %p.music-explain 曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など
+          %hr
+
+        .column
+          %p.music-name 曲名
+          %audio.musics(src="" controls)
+          %p.music-value 値段○○円
+          %p.music-explain 曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など曲の説明や情報など
+          %hr
+
+    #how-to-buy-background
+      %a#how-to-buy-bottom(href="") 購入までの流れについて
+
+
+    %footer
+      %text#mail mail: akihiro.kikuchi@engraphia.com
+      %ul#footer-link
+        %li.footer-list<
+          %a.footer-link(href="") ご購入までの流れ
+        %li.footer-list<
+          %a.footer-link(href="") このサイトについて
+      %text#copyright  copyright©2015 akihiro.kikuchi
