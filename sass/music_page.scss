@@ -1,0 +1,286 @@
+@import "compass";
+
+
+
+body{
+  @include background(
+  linear-gradient(top left, rgba(188,200,212,0.75),rgba(15,82,188,0.75)),
+  radial-gradient(#6cc, #fff 100px)
+  );
+  margin:0;
+}
+
+
+header{
+  width:100%;
+  min-width:810px;
+  height:150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color:rgba(79,180,108,0.4);
+    width:270px;
+    height:60px;
+    margin-top: 25px;
+  }
+  #nav{
+    ul{
+      display: inline-block;
+      float:right;
+      width:500px;
+      height:100px;
+      margin-top:70px;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
+      }
+    }
+  }
+}
+
+
+
+#page-select{
+  clear:both;
+  float:right;
+  width:500px;
+  height:100px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:50px;
+  margin-right:120px;
+  #page-select-background{
+    height:100px;
+    background-color: rgba(213,137,129,0.5);
+    @include border-radius(50px 0 50px)
+  }
+    .select{
+      color:#f5f;
+      font-size:20px;
+      border:1px solid #ccc;
+      text-decoration: none;
+      line-height:100px;
+      background-color:rgb(133,218,21);
+      padding:10px;
+      margin-left: 30px;
+      @include border-radius(15px);
+      @include box-shadow(0 0 5px black);
+    }
+    .select:hover{
+      color:#f8f;
+      @include box-shadow(none);
+    }
+}
+
+#contents-top{
+  clear:both;
+  margin:0 auto;
+  margin-bottom: 50px;
+  background:#aaa;
+  width:500px;
+  height:250px;
+  border:10px double gray;
+  @include border-radius(50%);
+  #contents-top-size{
+    width:500px;
+    height:250px;
+    #main-title{
+      text-align: center;
+    }
+    #page-explain{
+      width:460px;
+      margin:0 auto;
+      text-align: center;
+    }
+    #page-link{
+      //background: #000;
+      width:230px;
+      height:50px;
+      margin:auto;
+      margin-top: 10px;
+      .page-link{
+        display:inline-block;
+        width: 100px;
+        height:50px;
+        line-height:50px;
+        text-align: center;
+        text-decoration: none;
+        margin:auto;
+        border:1px ridge yellow;
+        @include border-radius(10px);
+      }
+      #inst_link{
+        background:orange ;
+      }
+      #song_link{
+        background:green;
+        margin-left: 14px;
+        }
+      .page-link:hover{
+        color:white;
+      }
+    }
+  }
+}
+
+
+#contents-bottom{
+  //background:#ccc;
+  .column{
+  margin-left:40px;
+    .music-name{
+      font-size: 22px;
+      font-weight: bold;
+      margin-left:20px;
+    }
+    .musics{
+      margin-left:20px;
+    }
+    .music-value{
+      color:red;
+      margin-left: 50px;
+    }
+    .music-explain{
+      margin-left:50px;
+      margin-right:100px;
+    }
+  }
+  #bgm-section{
+    //background:#390;
+    width:80%;
+    margin:0 auto;
+    padding-bottom:30px;
+    #bgm-image{
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left: 150px;
+    height:250px;
+    width:400px;
+    @include rotate(10deg);
+    @include opacity(0.8);
+    }
+    #bgm{
+    padding-left:10px;
+    margin-right: 20px;
+    border-left:5px double gray;
+    border-bottom:3px dotted gray;
+    margin-left:40px;
+    }
+  }
+  #song-section{
+  //background: #bbb;
+  width:80%;
+  margin:0 auto;
+  padding-bottom:30px;
+    #song-image{
+      margin-left: 150px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      height:250px;
+      width:400px;
+      @include rotate(-16deg);
+      @include opacity(0.8);
+    }
+    #song{
+      padding-left:10px;
+      margin-right:20px;
+      margin-top:100px;
+      border-left:5px double gray;
+      border-bottom:3px dotted gray;
+      margin-left: 40px;
+    }
+  }
+}
+
+
+#how-to-buy-background{
+  //background: black;
+  width:80%;
+  min-width:500px;
+  height:50px;
+  margin: auto;
+  margin-top:30px;
+  margin-bottom:150px;
+  #how-to-buy-bottom{
+    display:inline-block;
+    background: yellow;
+    font-size:30px;
+    border:1px solid black;
+    width:100%;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  clear:both;
+  width:100%;
+  min-width:700px;
+  height:50px;
+  background-color: black;
+  margin-top:30px;
+  position:fixed;
+  bottom:0;
+    #mail{
+      color:white;
+      font-size:13px;
+      letter-spacing: 1px;
+      float:left;
+      width:45%;
+      height:25px;
+      margin-left: 10px;
+    }
+    #footer-link{
+      display:inline-block;
+      float:right;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
+    }
+    #copyright{
+      width:50%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      float:right;
+      margin-right:15%;
+      letter-spacing:2px;
+      clear:both;
+    }
+}
