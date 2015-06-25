@@ -1,0 +1,52 @@
+!!!
+%html(lang="ja")
+  %head
+    %meta(charset="utf-8")
+    %title プロフィール
+    %link(rel="stylesheet" type="text/css" href="stylesheets/profile.css")
+
+  %body
+    %header
+      %img#logo(src="images/music_page_header_logo_03.png")
+      #nav
+        %ul
+          %li<
+            %a.navigation(href="") ホーム
+          %li<
+            %a.navigation(href="") 音源一覧
+          %li<
+            %a.navigation(href="") プロフィール
+
+
+
+    #contents
+      %h1#main-title プロフィール
+      #histroy.column
+        %h1.sub-title 略歴
+        %p 略歴を何行かに渡って書きます。略歴を何行かに渡って書きます。略歴を何行かに渡って書きます。略歴を何行かに渡って書きます。略歴を何行かに渡って書きます。略歴を何行かに渡って書きます。
+      #hobby.column
+        %h1.sub-title 趣味
+        %ul#hoby-lists
+          %li.hobby-list 趣味
+          %li.hobby-list 趣味
+          %li.hobby-list 趣味
+      #dtm.column
+        %h1.sub-title 機材など
+        %ul#dtm-lists
+          %li.dtm-list 機材など
+          %li.dtm-list 機材など
+          %li.dtm-list 機材など
+
+
+    #link-section
+      %a#music-page-link(href="") 音楽のページへ
+
+
+    %footer
+      %text#mail mail: akihiro.kikuchi@engraphia.com
+      %ul#footer-link
+        %li.footer-list<
+          %a.footer-link(href="") ご購入までの流れ
+        %li.footer-list<
+          %a.footer-link(href="") このサイトについて
+      %text#copyright  copyright©2015 akihiro.kikuchi
