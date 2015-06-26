@@ -63,66 +63,88 @@ header #nav ul li .navigation {
   min-width: 650px;
   max-width: 650px;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 /* line 68, ../sass/buy_contact.scss */
 #contents-top #buy-title {
   text-align: center;
-  background-color: #aaa;
+  background-color: #f8f;
+  color: #3A322B;
+  padding: 10px;
+  border: 1px ridge gray;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
-/* line 72, ../sass/buy_contact.scss */
+/* line 76, ../sass/buy_contact.scss */
+#contents-top span {
+  color: red;
+}
+/* line 79, ../sass/buy_contact.scss */
 #contents-top .float-left {
   float: left;
   width: 500px;
+  margin-top: 50px;
 }
-/* line 76, ../sass/buy_contact.scss */
+/* line 84, ../sass/buy_contact.scss */
 #contents-top .clear {
   clear: both;
 }
-/* line 79, ../sass/buy_contact.scss */
+/* line 87, ../sass/buy_contact.scss */
 #contents-top .float-right-solo {
   float: right;
   width: 40px;
   margin-bottom: 100px;
 }
-/* line 85, ../sass/buy_contact.scss */
+/* line 93, ../sass/buy_contact.scss */
 #contents-top .float-left-under {
   float: right;
   width: 500px;
   margin-right: 40px;
   margin-top: 50px;
 }
-/* line 93, ../sass/buy_contact.scss */
+/* line 101, ../sass/buy_contact.scss */
 #contents-top .route {
-  background: green;
+  background: #47EA7E;
+  color: black;
   width: 150px;
-  height: 50px;
-  margin-left: 15px;
+  height: 100px;
+  margin-left: 5px;
   margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid gray;
+  text-align: center;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
-/* line 102, ../sass/buy_contact.scss */
+/* line 115, ../sass/buy_contact.scss */
 #contents-top .yazirushi {
   margin: 1px;
-  background: #ddd;
-  height: 50px;
+  height: 100px;
   width: 50px;
+  font-size: 40px;
+  line-height: 100px;
+  font-weight: bold;
 }
-/* line 108, ../sass/buy_contact.scss */
+/* line 124, ../sass/buy_contact.scss */
 #contents-top #yazirushi3 {
   margin-right: 100px;
 }
-/* line 111, ../sass/buy_contact.scss */
+/* line 127, ../sass/buy_contact.scss */
 #contents-top #yazirushi4 {
   margin-top: 50px;
 }
-/* line 114, ../sass/buy_contact.scss */
+/* line 130, ../sass/buy_contact.scss */
 #contents-top #yazirushi1, #contents-top #yazirushi2 {
   margin-left: 15px;
+  margin-top: 50px;
 }
 
-/* line 120, ../sass/buy_contact.scss */
+/* line 137, ../sass/buy_contact.scss */
 #contents-bottom {
   clear: both;
+  background: #D7D88C;
   width: 60%;
   min-width: 500px;
   margin: auto;
@@ -131,24 +153,24 @@ header #nav ul li .navigation {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 127, ../sass/buy_contact.scss */
+/* line 145, ../sass/buy_contact.scss */
 #contents-bottom #contact {
   text-align: center;
 }
-/* line 130, ../sass/buy_contact.scss */
+/* line 148, ../sass/buy_contact.scss */
 #contents-bottom #contact-form {
   text-align: center;
 }
-/* line 132, ../sass/buy_contact.scss */
+/* line 150, ../sass/buy_contact.scss */
 #contents-bottom #contact-form p {
   margin-bottom: 40px;
 }
-/* line 135, ../sass/buy_contact.scss */
+/* line 153, ../sass/buy_contact.scss */
 #contents-bottom #contact-form #submit {
   margin-left: 30px;
 }
 
-/* line 143, ../sass/buy_contact.scss */
+/* line 161, ../sass/buy_contact.scss */
 footer {
   width: 100%;
   min-width: 700px;
@@ -156,7 +178,7 @@ footer {
   background-color: black;
   margin-top: 30px;
 }
-/* line 149, ../sass/buy_contact.scss */
+/* line 167, ../sass/buy_contact.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -166,14 +188,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 159, ../sass/buy_contact.scss */
+/* line 177, ../sass/buy_contact.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 164, ../sass/buy_contact.scss */
+/* line 182, ../sass/buy_contact.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -182,13 +204,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 172, ../sass/buy_contact.scss */
+/* line 190, ../sass/buy_contact.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 178, ../sass/buy_contact.scss */
+/* line 196, ../sass/buy_contact.scss */
 footer #copyright {
   width: 50%;
   height: 20px;
