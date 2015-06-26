@@ -56,13 +56,12 @@ header{
 
 #page-select{
   clear:both;
-  float:right;
   width:500px;
   height:100px;
   text-align: center;
   margin-top: 20px;
   margin-bottom:50px;
-  margin-right:120px;
+  margin:auto;
   #page-select-background{
     height:100px;
     background-color: rgba(213,137,129,0.5);
@@ -93,14 +92,17 @@ header{
   float:right;
   width:80%;
   min-width:500px;
+  margin-top:70px;
   margin-left: 10px;
-  margin-right:10px;
-  margin-bottom: 10px;
+  margin-right:20px;
+  margin-bottom: 120px;
   padding-left: 20px;
   padding-bottom: 30px;
   h1{
+    margin-top:50px;
     text-align: center;
     border-bottom:2px dotted gray;
+    margin-right:40px;
   }
   #this-page-is{
     font-size:15px;
@@ -110,9 +112,10 @@ header{
   }
   .column{
     padding-top:20px;
-    padding-left: 80px;
+    padding-left: 50px;
     padding-right:50px;
     margin-right:50px;
+    margin-top:40px;
     h2{
       border-left: 4px double gray;
       padding:5px;

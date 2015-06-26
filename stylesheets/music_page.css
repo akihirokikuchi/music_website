@@ -1,0 +1,327 @@
+/* line 5, ../sass/music_page.scss */
+body {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JjYzhkNCIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGY1MmJjIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2Y2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(188, 200, 212, 0.75)), color-stop(100%, rgba(15, 82, 188, 0.75))), radial-gradient(#66cccc, #ffffff 100px);
+  background: -moz-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -moz-radial-gradient(#66cccc, #ffffff 100px);
+  background: -webkit-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -webkit-radial-gradient(#66cccc, #ffffff 100px);
+  background: linear-gradient(to bottom right, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), radial-gradient(#66cccc, #ffffff 100px);
+  margin: 0;
+}
+
+/* line 14, ../sass/music_page.scss */
+header {
+  width: 100%;
+  min-width: 810px;
+  height: 150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 21, ../sass/music_page.scss */
+header #logo {
+  float: left;
+  background-color: rgba(79, 180, 108, 0.4);
+  width: 270px;
+  height: 60px;
+  margin-top: 25px;
+}
+/* line 29, ../sass/music_page.scss */
+header #nav ul {
+  display: inline-block;
+  float: right;
+  width: 500px;
+  height: 100px;
+  margin-top: 70px;
+}
+/* line 35, ../sass/music_page.scss */
+header #nav ul li {
+  display: inline-block;
+  width: 160px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  list-style: none;
+  line-height: 45px;
+  background-color: black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 45, ../sass/music_page.scss */
+header #nav ul li .navigation {
+  text-decoration: none;
+  text-weight: bold;
+  color: white;
+  padding: 20 20 10 20;
+}
+
+/* line 58, ../sass/music_page.scss */
+#page-select {
+  clear: both;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* line 66, ../sass/music_page.scss */
+#page-select #page-select-background {
+  height: 100px;
+  background-color: rgba(213, 137, 129, 0.5);
+  -moz-border-radius: 50px 0 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px 0 50px;
+}
+/* line 71, ../sass/music_page.scss */
+#page-select .select {
+  color: #f5f;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  line-height: 100px;
+  background-color: #85da15;
+  padding: 10px;
+  margin-left: 30px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+}
+/* line 83, ../sass/music_page.scss */
+#page-select .select:hover {
+  color: #f8f;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 89, ../sass/music_page.scss */
+#contents-top {
+  clear: both;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: #aaa;
+  width: 500px;
+  height: 250px;
+  border: 10px double rgba(82, 169, 197, 0.7);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 98, ../sass/music_page.scss */
+#contents-top #contents-top-size {
+  width: 500px;
+  height: 250px;
+}
+/* line 101, ../sass/music_page.scss */
+#contents-top #contents-top-size #main-title {
+  text-align: center;
+}
+/* line 104, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-explain {
+  width: 460px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 109, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-link {
+  width: 230px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+/* line 115, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-link .page-link {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border: 1px ridge yellow;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 126, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-link #inst_link {
+  background: orange;
+}
+/* line 129, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-link #song_link {
+  background: green;
+  margin-left: 14px;
+}
+/* line 133, ../sass/music_page.scss */
+#contents-top #contents-top-size #page-link .page-link:hover {
+  color: white;
+}
+
+/* line 143, ../sass/music_page.scss */
+#contents-bottom .column {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+/* line 146, ../sass/music_page.scss */
+#contents-bottom .column .music-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* line 151, ../sass/music_page.scss */
+#contents-bottom .column .musics {
+  margin-left: 20px;
+}
+/* line 154, ../sass/music_page.scss */
+#contents-bottom .column .music-value {
+  color: red;
+  margin-left: 50px;
+}
+/* line 158, ../sass/music_page.scss */
+#contents-bottom .column .music-explain {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+/* line 163, ../sass/music_page.scss */
+#contents-bottom #bgm-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+/* line 168, ../sass/music_page.scss */
+#contents-bottom #bgm-section #bgm-image {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  height: 250px;
+  width: 400px;
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 177, ../sass/music_page.scss */
+#contents-bottom #bgm-section #bgm {
+  padding-left: 10px;
+  margin-right: 20px;
+  border-left: 5px double gray;
+  border-bottom: 3px dotted gray;
+  margin-left: 40px;
+}
+/* line 185, ../sass/music_page.scss */
+#contents-bottom #song-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+/* line 190, ../sass/music_page.scss */
+#contents-bottom #song-section #song-image {
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  height: 250px;
+  width: 400px;
+  -moz-transform: rotate(-16deg);
+  -ms-transform: rotate(-16deg);
+  -webkit-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 199, ../sass/music_page.scss */
+#contents-bottom #song-section #song {
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-top: 100px;
+  border-left: 5px double gray;
+  border-bottom: 3px dotted gray;
+  margin-left: 40px;
+}
+
+/* line 211, ../sass/music_page.scss */
+#how-to-buy-background {
+  width: 80%;
+  min-width: 500px;
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+/* line 219, ../sass/music_page.scss */
+#how-to-buy-background #how-to-buy-bottom {
+  display: inline-block;
+  background: yellow;
+  color: black;
+  font-size: 30px;
+  border: 1px solid black;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+/* line 229, ../sass/music_page.scss */
+#how-to-buy-background #how-to-buy-bottom:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+
+/* line 243, ../sass/music_page.scss */
+footer {
+  clear: both;
+  width: 100%;
+  min-width: 700px;
+  height: 50px;
+  background-color: black;
+  margin-top: 30px;
+  position: fixed;
+  bottom: 0;
+}
+/* line 252, ../sass/music_page.scss */
+footer #mail {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1px;
+  float: left;
+  width: 45%;
+  height: 25px;
+  margin-left: 10px;
+}
+/* line 261, ../sass/music_page.scss */
+footer #footer-link {
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 266, ../sass/music_page.scss */
+footer #footer-link .footer-list {
+  float: right;
+  width: 150px;
+  height: 25px;
+  list-style: none;
+  font-size: 15px;
+  margin-right: 10px;
+}
+/* line 274, ../sass/music_page.scss */
+footer #footer-link .footer-link {
+  text-decoration: none;
+  color: white;
+  width: 50px;
+}
+/* line 280, ../sass/music_page.scss */
+footer #copyright {
+  width: 50%;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  float: right;
+  margin-right: 15%;
+  letter-spacing: 2px;
+  clear: both;
+}

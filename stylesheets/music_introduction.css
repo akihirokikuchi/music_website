@@ -1,0 +1,243 @@
+/* line 4, ../sass/music_introduction.scss */
+body {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JjYzhkNCIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGY1MmJjIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2Y2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(188, 200, 212, 0.75)), color-stop(100%, rgba(15, 82, 188, 0.75))), radial-gradient(#66cccc, #ffffff 100px);
+  background: -moz-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -moz-radial-gradient(#66cccc, #ffffff 100px);
+  background: -webkit-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -webkit-radial-gradient(#66cccc, #ffffff 100px);
+  background: linear-gradient(to bottom right, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), radial-gradient(#66cccc, #ffffff 100px);
+  margin: 0;
+}
+
+/* line 13, ../sass/music_introduction.scss */
+header {
+  width: 100%;
+  min-width: 810px;
+  height: 150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 20, ../sass/music_introduction.scss */
+header #logo {
+  float: left;
+  background-color: #aaa;
+  width: 250px;
+  height: 100px;
+  margin-top: 10px;
+}
+/* line 28, ../sass/music_introduction.scss */
+header #nav ul {
+  display: inline-block;
+  float: right;
+  width: 500px;
+  height: 100px;
+  margin-top: 70px;
+}
+/* line 34, ../sass/music_introduction.scss */
+header #nav ul li {
+  display: inline-block;
+  width: 160px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  list-style: none;
+  line-height: 45px;
+  background-color: black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 44, ../sass/music_introduction.scss */
+header #nav ul li .navigation {
+  text-decoration: none;
+  text-weight: bold;
+  color: white;
+  padding: 20 20 10 20;
+}
+
+/* line 57, ../sass/music_introduction.scss */
+#page-select {
+  clear: both;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin: auto;
+}
+/* line 65, ../sass/music_introduction.scss */
+#page-select #page-select-background {
+  height: 100px;
+  background-color: rgba(213, 137, 129, 0.5);
+  -moz-border-radius: 50px 0 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px 0 50px;
+}
+/* line 70, ../sass/music_introduction.scss */
+#page-select .select {
+  color: #f5f;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  line-height: 100px;
+  background-color: #85da15;
+  padding: 10px;
+  margin-left: 30px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+}
+/* line 82, ../sass/music_introduction.scss */
+#page-select .select:hover {
+  color: #f8f;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 91, ../sass/music_introduction.scss */
+#my-history {
+  float: right;
+  width: 80%;
+  min-width: 500px;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 120px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+/* line 101, ../sass/music_introduction.scss */
+#my-history h1 {
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 2px dotted gray;
+  margin-right: 40px;
+}
+/* line 107, ../sass/music_introduction.scss */
+#my-history #this-page-is {
+  font-size: 15px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+/* line 113, ../sass/music_introduction.scss */
+#my-history .column {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+/* line 119, ../sass/music_introduction.scss */
+#my-history .column h2 {
+  border-left: 4px double gray;
+  padding: 5px;
+}
+/* line 123, ../sass/music_introduction.scss */
+#my-history .column .music-name {
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 128, ../sass/music_introduction.scss */
+#my-history .column .musics {
+  padding-left: 30px;
+}
+/* line 131, ../sass/music_introduction.scss */
+#my-history .column .music-explain {
+  padding-left: 40px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+/* line 140, ../sass/music_introduction.scss */
+#sidebar {
+  border: 3px groove #ccc;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1ODVlNiIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGY1MmJjIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(213, 133, 230, 0.75)), color-stop(100%, rgba(15, 82, 188, 0.75)));
+  background: -moz-linear-gradient(top left, rgba(213, 133, 230, 0.75), rgba(15, 82, 188, 0.75));
+  background: -webkit-linear-gradient(top left, rgba(213, 133, 230, 0.75), rgba(15, 82, 188, 0.75));
+  background: linear-gradient(to bottom right, rgba(213, 133, 230, 0.75), rgba(15, 82, 188, 0.75));
+  float: left;
+  width: 130px;
+  position: fixed;
+  top: 222px;
+  left: 0;
+}
+/* line 151, ../sass/music_introduction.scss */
+#sidebar h2 {
+  text-align: center;
+  color: white;
+}
+/* line 155, ../sass/music_introduction.scss */
+#sidebar li {
+  list-style: none;
+  padding: 2px;
+  letter-spacing: 2px;
+}
+/* line 159, ../sass/music_introduction.scss */
+#sidebar li a {
+  color: #f2caaa;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* line 169, ../sass/music_introduction.scss */
+footer {
+  clear: both;
+  width: 100%;
+  min-width: 700px;
+  height: 50px;
+  background-color: black;
+  margin-top: 30px;
+  position: fixed;
+  bottom: 0;
+}
+/* line 178, ../sass/music_introduction.scss */
+footer #mail {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1px;
+  float: left;
+  width: 45%;
+  height: 25px;
+  margin-left: 10px;
+}
+/* line 187, ../sass/music_introduction.scss */
+footer #footer-link {
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 192, ../sass/music_introduction.scss */
+footer #footer-link .footer-list {
+  float: right;
+  width: 150px;
+  height: 25px;
+  list-style: none;
+  font-size: 15px;
+  margin-right: 10px;
+}
+/* line 200, ../sass/music_introduction.scss */
+footer #footer-link .footer-link {
+  text-decoration: none;
+  color: white;
+  width: 50px;
+}
+/* line 206, ../sass/music_introduction.scss */
+footer #copyright {
+  width: 50%;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  float: right;
+  margin-right: 15%;
+  letter-spacing: 2px;
+  clear: both;
+}

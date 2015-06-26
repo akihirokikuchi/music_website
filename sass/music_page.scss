@@ -57,13 +57,12 @@ header{
 
 #page-select{
   clear:both;
-  float:right;
   width:500px;
   height:100px;
   text-align: center;
+  margin:auto;
   margin-top: 20px;
   margin-bottom:50px;
-  margin-right:120px;
   #page-select-background{
     height:100px;
     background-color: rgba(213,137,129,0.5);
@@ -94,7 +93,7 @@ header{
   background:#aaa;
   width:500px;
   height:250px;
-  border:10px double gray;
+  border:10px double rgba(82,169,197,0.7);
   @include border-radius(50%);
   #contents-top-size{
     width:500px;
@@ -143,6 +142,7 @@ header{
   //background:#ccc;
   .column{
   margin-left:40px;
+  margin-bottom:30px;
     .music-name{
       font-size: 22px;
       font-weight: bold;
@@ -219,11 +219,15 @@ header{
   #how-to-buy-bottom{
     display:inline-block;
     background: yellow;
+    color:black;
     font-size:30px;
     border:1px solid black;
     width:100%;
     line-height: 50px;
     text-align: center;
+  }
+  #how-to-buy-bottom:hover{
+    @include opacity(0.8);
   }
 }
 

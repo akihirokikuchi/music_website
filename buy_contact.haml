@@ -1,0 +1,63 @@
+!!!
+%html(lang="ja")
+
+  %head
+    %meta(charset="utf-8")
+    %title ご購入までの流れについて
+    %link(rel="stylesheet" type="text/css" href="stylesheets/buy_contact.css")
+
+
+  %body
+    %header
+      %img#logo(src="")
+      #nav
+        %ul
+          %li<
+            %a.navigation(href="") ホーム
+          %li<
+            %a.navigation(href="") 音源一覧
+          %li<
+            %a.navigation(href="") プロフィール
+
+
+    #contents-top
+      %h1#buy-title ご購入までの流れ
+      #route1.route.float-left
+      #yazirushi1.yazirushi.float-left
+      #route2.route.float-left
+      #yazirushi2.yazirushi.float-left
+      #route3.route.float-left
+      .clear
+      #yazirushi3.yazirushi.float-right-solo
+      .clear
+      #route4.route.float-left-under
+      #yazirushi4.yazirushi.float-left-under
+      #route5.route.float-left-under
+
+    #contents-bottom
+      %h1#contact お問い合わせ
+      %form#contact-form(action="" method="")
+
+
+        %p#name
+          名前:
+          %input(type="text" name="name" placeholder="名前" size="25")
+        %p#email
+          email:
+          %input(type="email" name="email" placeholder="メールアドレス" size="25")
+        %p#comment
+          本文:
+          %textarea(name="comment" col="50" row="5" placeholder="本文" size="40")
+        %p#submit
+          %input(type="submit" name="submit" value="送信")
+          %input(type="reset" name="reset" value="リセット")
+
+
+    %footer
+      %text#mail mail: akihiro.kikuchi@engraphia.com
+      %ul#footer-link
+        %li.footer-list<
+          %a.footer-link(href="") ご購入までの流れ
+        %li.footer-list<
+          %a.footer-link(href="") このサイトについて
+      %text#copyright  copyright©2015 akihiro.kikuchi
