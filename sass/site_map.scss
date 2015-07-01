@@ -62,7 +62,7 @@ header{
 #title{
   clear:both;
   color:white;
-  @include background(radial-gradient(red,gray,yellow,purple,orange,green,black,silver,white));
+  @include background(radial-gradient(red,yellow,orange,silver));
   @include text-shadow(rgba(blue, 0.2) 1px 1px 0, rgba(blue, 0.2) 2px 2px 0, rgba(blue, 0.2) 3px 3px 0);
   text-align: center;
   height:80px;
@@ -88,7 +88,7 @@ header{
   width:80%;
   margin:auto;
   margin-bottom:70px;
-  @include background(linear-gradient(orange yellow white));
+  @include background(linear-gradient(yellow white));
   padding:2px;
   border:1px solid black;
   @include border-radius(30px);

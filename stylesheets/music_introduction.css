@@ -21,10 +21,10 @@ header {
 /* line 20, ../sass/music_introduction.scss */
 header #logo {
   float: left;
-  background-color: #aaa;
-  width: 250px;
-  height: 100px;
-  margin-top: 10px;
+  background-color: rgba(79, 180, 108, 0.4);
+  width: 270px;
+  height: 60px;
+  margin-top: 25px;
 }
 /* line 28, ../sass/music_introduction.scss */
 header #nav ul {
