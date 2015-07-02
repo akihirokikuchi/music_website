@@ -71,7 +71,7 @@ header #nav ul li .navigation {
   background-color: #f8f;
   color: #3A322B;
   padding: 10px;
-  border: 1px ridge gray;
+  border: 5px ridge gray;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -148,37 +148,40 @@ header #nav ul li .navigation {
   width: 60%;
   min-width: 500px;
   margin: auto;
+  margin-bottom: 100px;
   border: 1px solid black;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 145, ../sass/buy_contact.scss */
+/* line 146, ../sass/buy_contact.scss */
 #contents-bottom #contact {
   text-align: center;
 }
-/* line 148, ../sass/buy_contact.scss */
+/* line 149, ../sass/buy_contact.scss */
 #contents-bottom #contact-form {
   text-align: center;
 }
-/* line 150, ../sass/buy_contact.scss */
+/* line 151, ../sass/buy_contact.scss */
 #contents-bottom #contact-form p {
   margin-bottom: 40px;
 }
-/* line 153, ../sass/buy_contact.scss */
+/* line 154, ../sass/buy_contact.scss */
 #contents-bottom #contact-form #submit {
   margin-left: 30px;
 }
 
-/* line 161, ../sass/buy_contact.scss */
+/* line 162, ../sass/buy_contact.scss */
 footer {
   width: 100%;
   min-width: 700px;
   height: 50px;
   background-color: black;
   margin-top: 30px;
+  position: fixed;
+  bottom: 0;
 }
-/* line 167, ../sass/buy_contact.scss */
+/* line 170, ../sass/buy_contact.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -188,14 +191,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 177, ../sass/buy_contact.scss */
+/* line 180, ../sass/buy_contact.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 182, ../sass/buy_contact.scss */
+/* line 185, ../sass/buy_contact.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -204,13 +207,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 190, ../sass/buy_contact.scss */
+/* line 193, ../sass/buy_contact.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 196, ../sass/buy_contact.scss */
+/* line 199, ../sass/buy_contact.scss */
 footer #copyright {
   width: 50%;
   height: 20px;

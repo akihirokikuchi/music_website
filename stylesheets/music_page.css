@@ -163,37 +163,42 @@ header #nav ul li .navigation {
 }
 
 /* line 143, ../sass/music_page.scss */
+#contents-bottom .section-top-explain {
+  width: 80%;
+  margin-left: 50px;
+}
+/* line 147, ../sass/music_page.scss */
 #contents-bottom .column {
   margin-left: 40px;
   margin-bottom: 30px;
 }
-/* line 146, ../sass/music_page.scss */
+/* line 150, ../sass/music_page.scss */
 #contents-bottom .column .music-name {
   font-size: 22px;
   font-weight: bold;
   margin-left: 20px;
 }
-/* line 151, ../sass/music_page.scss */
+/* line 155, ../sass/music_page.scss */
 #contents-bottom .column .musics {
   margin-left: 20px;
 }
-/* line 154, ../sass/music_page.scss */
+/* line 158, ../sass/music_page.scss */
 #contents-bottom .column .music-value {
   color: red;
   margin-left: 50px;
 }
-/* line 158, ../sass/music_page.scss */
+/* line 162, ../sass/music_page.scss */
 #contents-bottom .column .music-explain {
   margin-left: 50px;
   margin-right: 100px;
 }
-/* line 163, ../sass/music_page.scss */
+/* line 167, ../sass/music_page.scss */
 #contents-bottom #bgm-section {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
 }
-/* line 168, ../sass/music_page.scss */
+/* line 172, ../sass/music_page.scss */
 #contents-bottom #bgm-section #bgm-image {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -207,7 +212,7 @@ header #nav ul li .navigation {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 177, ../sass/music_page.scss */
+/* line 181, ../sass/music_page.scss */
 #contents-bottom #bgm-section #bgm {
   padding-left: 10px;
   margin-right: 20px;
@@ -215,13 +220,13 @@ header #nav ul li .navigation {
   border-bottom: 3px dotted gray;
   margin-left: 40px;
 }
-/* line 185, ../sass/music_page.scss */
+/* line 189, ../sass/music_page.scss */
 #contents-bottom #song-section {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
 }
-/* line 190, ../sass/music_page.scss */
+/* line 194, ../sass/music_page.scss */
 #contents-bottom #song-section #song-image {
   margin-left: 150px;
   margin-top: 70px;
@@ -235,7 +240,7 @@ header #nav ul li .navigation {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 199, ../sass/music_page.scss */
+/* line 203, ../sass/music_page.scss */
 #contents-bottom #song-section #song {
   padding-left: 10px;
   margin-right: 20px;
@@ -245,7 +250,7 @@ header #nav ul li .navigation {
   margin-left: 40px;
 }
 
-/* line 211, ../sass/music_page.scss */
+/* line 215, ../sass/music_page.scss */
 #how-to-buy-background {
   width: 80%;
   min-width: 500px;
@@ -254,7 +259,7 @@ header #nav ul li .navigation {
   margin-top: 30px;
   margin-bottom: 150px;
 }
-/* line 219, ../sass/music_page.scss */
+/* line 223, ../sass/music_page.scss */
 #how-to-buy-background #how-to-buy-bottom {
   display: inline-block;
   background: yellow;
@@ -265,13 +270,13 @@ header #nav ul li .navigation {
   line-height: 50px;
   text-align: center;
 }
-/* line 229, ../sass/music_page.scss */
+/* line 233, ../sass/music_page.scss */
 #how-to-buy-background #how-to-buy-bottom:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 
-/* line 243, ../sass/music_page.scss */
+/* line 247, ../sass/music_page.scss */
 footer {
   clear: both;
   width: 100%;
@@ -282,7 +287,7 @@ footer {
   position: fixed;
   bottom: 0;
 }
-/* line 252, ../sass/music_page.scss */
+/* line 256, ../sass/music_page.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -292,14 +297,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 261, ../sass/music_page.scss */
+/* line 265, ../sass/music_page.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 266, ../sass/music_page.scss */
+/* line 270, ../sass/music_page.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -308,13 +313,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 274, ../sass/music_page.scss */
+/* line 278, ../sass/music_page.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 280, ../sass/music_page.scss */
+/* line 284, ../sass/music_page.scss */
 footer #copyright {
   width: 50%;
   height: 20px;

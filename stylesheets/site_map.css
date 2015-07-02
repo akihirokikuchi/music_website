@@ -129,8 +129,6 @@ footer {
   height: 50px;
   background-color: black;
   margin-top: 30px;
-  position: fixed;
-  bottom: 0;
 }
 /* line 122, ../sass/site_map.scss */
 footer #mail {
