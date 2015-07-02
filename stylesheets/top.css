@@ -68,13 +68,14 @@ header #nav ul li .navigation {
 /* line 62, ../sass/top.scss */
 #contents-top #catch-copy {
   color: white;
+  font-family: cursive;
   position: absolute;
   bottom: 0;
   right: 3%;
   font-size: 64px;
 }
 
-/* line 72, ../sass/top.scss */
+/* line 73, ../sass/top.scss */
 #contents-bottom {
   background-color: #cfe2d4;
   width: 700px;
@@ -82,7 +83,7 @@ header #nav ul li .navigation {
   margin: auto;
   border: 1px double black;
 }
-/* line 78, ../sass/top.scss */
+/* line 79, ../sass/top.scss */
 #contents-bottom h1 {
   color: black;
   font-size: 40px;
@@ -90,28 +91,28 @@ header #nav ul li .navigation {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* line 86, ../sass/top.scss */
+/* line 87, ../sass/top.scss */
 #contents-bottom .column {
   margin-left: 70px;
   margin-right: 70px;
 }
-/* line 90, ../sass/top.scss */
+/* line 91, ../sass/top.scss */
 #contents-bottom .music-name {
   font-size: 20px;
   padding-bottom: 10px;
   margin-left: 15px;
 }
-/* line 95, ../sass/top.scss */
+/* line 96, ../sass/top.scss */
 #contents-bottom .explain {
   margin-bottom: 10px;
   margin-left: 10px;
 }
-/* line 99, ../sass/top.scss */
+/* line 100, ../sass/top.scss */
 #contents-bottom .music {
   padding-left: 10px;
 }
 
-/* line 104, ../sass/top.scss */
+/* line 105, ../sass/top.scss */
 #music-page {
   background: green;
   font-size: 40px;
@@ -131,7 +132,7 @@ header #nav ul li .navigation {
   box-shadow: 0 0 10px black;
 }
 
-/* line 119, ../sass/top.scss */
+/* line 120, ../sass/top.scss */
 #music-page:hover {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -139,7 +140,7 @@ header #nav ul li .navigation {
   color: yellow;
 }
 
-/* line 125, ../sass/top.scss */
+/* line 126, ../sass/top.scss */
 footer {
   width: 100%;
   min-width: 700px;
@@ -147,7 +148,7 @@ footer {
   background-color: black;
   margin-top: 30px;
 }
-/* line 131, ../sass/top.scss */
+/* line 132, ../sass/top.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -157,14 +158,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 141, ../sass/top.scss */
+/* line 142, ../sass/top.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 146, ../sass/top.scss */
+/* line 147, ../sass/top.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -173,13 +174,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 154, ../sass/top.scss */
+/* line 155, ../sass/top.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 160, ../sass/top.scss */
+/* line 161, ../sass/top.scss */
 footer #copyright {
   width: 50%;
   height: 20px;
