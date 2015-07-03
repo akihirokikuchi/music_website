@@ -5,10 +5,11 @@ body {
   background: -moz-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -moz-radial-gradient(#66cccc, #ffffff 100px);
   background: -webkit-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -webkit-radial-gradient(#66cccc, #ffffff 100px);
   background: linear-gradient(to bottom right, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), radial-gradient(#66cccc, #ffffff 100px);
-  margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* line 18, ../sass/site_map.scss */
+/* line 19, ../sass/site_map.scss */
 header {
   width: 100%;
   min-width: 810px;
@@ -18,7 +19,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-/* line 25, ../sass/site_map.scss */
+/* line 26, ../sass/site_map.scss */
 header #logo {
   float: left;
   background-color: rgba(79, 180, 108, 0.4);
@@ -26,7 +27,7 @@ header #logo {
   height: 60px;
   margin-top: 25px;
 }
-/* line 33, ../sass/site_map.scss */
+/* line 34, ../sass/site_map.scss */
 header #nav ul {
   display: inline-block;
   float: right;
@@ -34,7 +35,7 @@ header #nav ul {
   height: 100px;
   margin-top: 70px;
 }
-/* line 39, ../sass/site_map.scss */
+/* line 40, ../sass/site_map.scss */
 header #nav ul li {
   display: inline-block;
   width: 160px;
@@ -48,7 +49,7 @@ header #nav ul li {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 49, ../sass/site_map.scss */
+/* line 50, ../sass/site_map.scss */
 header #nav ul li .navigation {
   text-decoration: none;
   text-weight: bold;
@@ -56,7 +57,7 @@ header #nav ul li .navigation {
   padding: 20 20 10 20;
 }
 
-/* line 62, ../sass/site_map.scss */
+/* line 63, ../sass/site_map.scss */
 #title {
   clear: both;
   color: white;
@@ -77,7 +78,7 @@ header #nav ul li .navigation {
   border-radius: 10px 10px 0 0;
 }
 
-/* line 76, ../sass/site_map.scss */
+/* line 77, ../sass/site_map.scss */
 #top-text {
   background: #ddd;
   text-align: center;
@@ -91,7 +92,7 @@ header #nav ul li .navigation {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 87, ../sass/site_map.scss */
+/* line 88, ../sass/site_map.scss */
 .column {
   width: 80%;
   margin: auto;
@@ -107,21 +108,26 @@ header #nav ul li .navigation {
   -webkit-border-radius: 30px;
   border-radius: 30px;
 }
-/* line 95, ../sass/site_map.scss */
+/* line 96, ../sass/site_map.scss */
 .column .sub-title {
   margin-left: 30px;
 }
 /* line 98, ../sass/site_map.scss */
+.column .sub-title a {
+  color: black;
+  text-decoration: none;
+}
+/* line 103, ../sass/site_map.scss */
 .column .sub-text {
   margin-left: 40px;
 }
 
-/* line 103, ../sass/site_map.scss */
+/* line 108, ../sass/site_map.scss */
 #last {
   margin-bottom: 150px;
 }
 
-/* line 113, ../sass/site_map.scss */
+/* line 118, ../sass/site_map.scss */
 footer {
   clear: both;
   width: 100%;
@@ -130,7 +136,7 @@ footer {
   background-color: black;
   margin-top: 30px;
 }
-/* line 122, ../sass/site_map.scss */
+/* line 127, ../sass/site_map.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -140,14 +146,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 131, ../sass/site_map.scss */
+/* line 136, ../sass/site_map.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 136, ../sass/site_map.scss */
+/* line 141, ../sass/site_map.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -156,13 +162,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 144, ../sass/site_map.scss */
+/* line 149, ../sass/site_map.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 150, ../sass/site_map.scss */
+/* line 155, ../sass/site_map.scss */
 footer #copyright {
   width: 50%;
   height: 20px;

@@ -118,21 +118,33 @@
       #sub-contents
         %h2 年代選択
         %%ul
-          %li<
+          %li.p-link<
             %a#link2014(href="#section2014") 2014
-          %li<
+          %li.p-link<
             %a#link2013(href="#section2013") 2013
-          %li<
+          %li.p-link<
             %a#link2012(href="#section2012") 2012
-          %li<
+          %li.p-link<
             %a#link2011(href="#section2011") 2011
-          %li<
+          %li.p-link<
             %a#link2010(href="#section2010") 2010
-          %li<
+          %li.p-link<
             %a#link2009(href="#section2009") 2009
-          %li<
+          %li.p-link<
             %a#link2008(href="#section2008") 2008
 
+
+
+    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    %script
+      $(function(){
+
+      $('.p-link').hover(
+      function(){$(this).fadeTo(0, 0.6).fadeTo('normal', 1.0);},
+      function(){$(this).fadeTo('fast', 1.0);}
+      );
+
+      });
 
 
 

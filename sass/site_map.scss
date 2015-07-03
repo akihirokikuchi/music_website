@@ -8,7 +8,8 @@ body{
   linear-gradient(top left, rgba(188,200,212,0.75),rgba(15,82,188,0.75)),
   radial-gradient(#6cc, #fff 100px)
   );
-  margin:0;
+  max-width:1000px;
+  margin:0 auto;
 }
 
 
@@ -94,6 +95,10 @@ header{
   @include border-radius(30px);
   .sub-title{
     margin-left:30px;
+    a{
+      color:black;
+      text-decoration: none;
+    }
   }
   .sub-text{
     margin-left:40px;

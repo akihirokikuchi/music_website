@@ -6,7 +6,8 @@ body{
   linear-gradient(top left, rgba(188,200,212,0.75),rgba(15,82,188,0.75)),
   radial-gradient(#6cc, #fff 100px)
   );
-  margin:0;
+  max-width:1000px;
+  margin:0 auto;
 }
 
 
@@ -102,13 +103,14 @@ header{
     margin-top:50px;
     text-align: center;
     border-bottom:2px dotted gray;
-    margin-right:40px;
+    margin-right:145px;
   }
   #this-page-is{
     font-size:15px;
     text-align: center;
     width:400px;
     margin:0 auto;
+    padding-right:145px;
   }
   .column{
     padding-top:20px;
@@ -170,11 +172,13 @@ footer{
   clear:both;
   width:100%;
   min-width:700px;
+  max-width:1000px;
   height:50px;
   background-color: black;
   margin-top:30px;
   position:fixed;
   bottom:0;
+  margin:auto;
     #mail{
       color:white;
       font-size:13px;

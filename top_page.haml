@@ -4,7 +4,6 @@
     %meta(charset="utf-8")
     %title my music
     %link(rel="stylesheet" type="text/css" href="stylesheets/top.css")
-
   %body
     %header
       %img#logo(src="images/music_page_header_logo_03.png")
@@ -48,3 +47,25 @@
         %li.footer-list<
           %a.footer-link(href="site_map.html") このサイトについて
       %text#copyright  copyright©2015 akihiro.kikuchi
+
+    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    %script
+      $(function(){
+      $('#main-image').fadeIn(2500);
+      $('#catch-copy').fadeIn(2500);
+
+      $('#catch-copy').mouseover(function()
+      {$(this).animate({"right" :"6%"},500)
+      });
+      $('#catch-copy').mouseout(function()
+      {$(this).animate({"right":"3%"},500)
+      });
+
+      $('.navigation').mouseover(function()
+      {$(this).animate({"opacity":"0.7"},100)
+      });
+      $('.navigation').mouseout(function()
+      {$(this).animate({"opacity":"1.0"},50)
+      });
+
+      });

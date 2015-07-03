@@ -50,5 +50,24 @@
       </ul>
       <text id="copyright">copyright©2015 akihiro.kikuchi</text>
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(function(){
+      $('#main-image').fadeIn(2500);
+      $('#catch-copy').fadeIn(2500);
+      $('#catch-copy').mouseover(function()
+      {$(this).animate({"right" :"6%"},500)
+      });
+      $('#catch-copy').mouseout(function()
+      {$(this).animate({"right":"3%"},500)
+      });
+      $('.navigation').mouseover(function()
+      {$(this).animate({"opacity":"0.7"},100)
+      });
+      $('.navigation').mouseout(function()
+      {$(this).animate({"opacity":"1.0"},50)
+      });
+      });
+    </script>
   </body>
 </html>

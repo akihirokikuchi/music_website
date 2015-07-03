@@ -5,10 +5,11 @@ body {
   background: -moz-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -moz-radial-gradient(#66cccc, #ffffff 100px);
   background: -webkit-linear-gradient(top left, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), -webkit-radial-gradient(#66cccc, #ffffff 100px);
   background: linear-gradient(to bottom right, rgba(188, 200, 212, 0.75), rgba(15, 82, 188, 0.75)), radial-gradient(#66cccc, #ffffff 100px);
-  margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* line 13, ../sass/music_introduction.scss */
+/* line 14, ../sass/music_introduction.scss */
 header {
   width: 100%;
   min-width: 810px;
@@ -18,7 +19,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-/* line 20, ../sass/music_introduction.scss */
+/* line 21, ../sass/music_introduction.scss */
 header #logo {
   float: left;
   background-color: rgba(79, 180, 108, 0.4);
@@ -26,7 +27,7 @@ header #logo {
   height: 60px;
   margin-top: 25px;
 }
-/* line 28, ../sass/music_introduction.scss */
+/* line 29, ../sass/music_introduction.scss */
 header #nav ul {
   display: inline-block;
   float: right;
@@ -34,7 +35,7 @@ header #nav ul {
   height: 100px;
   margin-top: 70px;
 }
-/* line 34, ../sass/music_introduction.scss */
+/* line 35, ../sass/music_introduction.scss */
 header #nav ul li {
   display: inline-block;
   width: 160px;
@@ -48,7 +49,7 @@ header #nav ul li {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 44, ../sass/music_introduction.scss */
+/* line 45, ../sass/music_introduction.scss */
 header #nav ul li .navigation {
   text-decoration: none;
   text-weight: bold;
@@ -56,7 +57,7 @@ header #nav ul li .navigation {
   padding: 20 20 10 20;
 }
 
-/* line 57, ../sass/music_introduction.scss */
+/* line 58, ../sass/music_introduction.scss */
 #page-select {
   clear: both;
   width: 500px;
@@ -66,7 +67,7 @@ header #nav ul li .navigation {
   margin-bottom: 50px;
   margin: auto;
 }
-/* line 65, ../sass/music_introduction.scss */
+/* line 66, ../sass/music_introduction.scss */
 #page-select #page-select-background {
   height: 100px;
   background-color: rgba(213, 137, 129, 0.5);
@@ -74,7 +75,7 @@ header #nav ul li .navigation {
   -webkit-border-radius: 50px;
   border-radius: 50px 0 50px;
 }
-/* line 70, ../sass/music_introduction.scss */
+/* line 71, ../sass/music_introduction.scss */
 #page-select .select {
   color: #f5f;
   font-size: 20px;
@@ -91,7 +92,7 @@ header #nav ul li .navigation {
   -webkit-box-shadow: 0 0 5px black;
   box-shadow: 0 0 5px black;
 }
-/* line 82, ../sass/music_introduction.scss */
+/* line 83, ../sass/music_introduction.scss */
 #page-select .select:hover {
   color: #f8f;
   -moz-box-shadow: none;
@@ -99,7 +100,7 @@ header #nav ul li .navigation {
   box-shadow: none;
 }
 
-/* line 91, ../sass/music_introduction.scss */
+/* line 92, ../sass/music_introduction.scss */
 #my-history {
   float: right;
   width: 80%;
@@ -111,21 +112,22 @@ header #nav ul li .navigation {
   padding-left: 20px;
   padding-bottom: 30px;
 }
-/* line 101, ../sass/music_introduction.scss */
+/* line 102, ../sass/music_introduction.scss */
 #my-history h1 {
   margin-top: 50px;
   text-align: center;
   border-bottom: 2px dotted gray;
-  margin-right: 40px;
+  margin-right: 145px;
 }
-/* line 107, ../sass/music_introduction.scss */
+/* line 108, ../sass/music_introduction.scss */
 #my-history #this-page-is {
   font-size: 15px;
   text-align: center;
   width: 400px;
   margin: 0 auto;
+  padding-right: 145px;
 }
-/* line 113, ../sass/music_introduction.scss */
+/* line 115, ../sass/music_introduction.scss */
 #my-history .column {
   padding-top: 20px;
   padding-left: 50px;
@@ -133,29 +135,29 @@ header #nav ul li .navigation {
   margin-right: 50px;
   margin-top: 40px;
 }
-/* line 119, ../sass/music_introduction.scss */
+/* line 121, ../sass/music_introduction.scss */
 #my-history .column h2 {
   border-left: 4px double gray;
   padding: 5px;
 }
-/* line 123, ../sass/music_introduction.scss */
+/* line 125, ../sass/music_introduction.scss */
 #my-history .column .music-name {
   padding-left: 5px;
   font-size: 18px;
   font-weight: bold;
 }
-/* line 128, ../sass/music_introduction.scss */
+/* line 130, ../sass/music_introduction.scss */
 #my-history .column .musics {
   padding-left: 30px;
 }
-/* line 131, ../sass/music_introduction.scss */
+/* line 133, ../sass/music_introduction.scss */
 #my-history .column .music-explain {
   padding-left: 40px;
   padding-bottom: 5px;
   font-size: 12px;
 }
 
-/* line 140, ../sass/music_introduction.scss */
+/* line 142, ../sass/music_introduction.scss */
 #sidebar {
   border: 3px groove #ccc;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1ODVlNiIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGY1MmJjIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -169,36 +171,38 @@ header #nav ul li .navigation {
   top: 222px;
   left: 0;
 }
-/* line 151, ../sass/music_introduction.scss */
+/* line 153, ../sass/music_introduction.scss */
 #sidebar h2 {
   text-align: center;
   color: white;
 }
-/* line 155, ../sass/music_introduction.scss */
+/* line 157, ../sass/music_introduction.scss */
 #sidebar li {
   list-style: none;
   padding: 2px;
   letter-spacing: 2px;
 }
-/* line 159, ../sass/music_introduction.scss */
+/* line 161, ../sass/music_introduction.scss */
 #sidebar li a {
   color: #f2caaa;
   text-decoration: none;
   font-size: 18px;
 }
 
-/* line 169, ../sass/music_introduction.scss */
+/* line 171, ../sass/music_introduction.scss */
 footer {
   clear: both;
   width: 100%;
   min-width: 700px;
+  max-width: 1000px;
   height: 50px;
   background-color: black;
   margin-top: 30px;
   position: fixed;
   bottom: 0;
+  margin: auto;
 }
-/* line 178, ../sass/music_introduction.scss */
+/* line 182, ../sass/music_introduction.scss */
 footer #mail {
   color: white;
   font-size: 13px;
@@ -208,14 +212,14 @@ footer #mail {
   height: 25px;
   margin-left: 10px;
 }
-/* line 187, ../sass/music_introduction.scss */
+/* line 191, ../sass/music_introduction.scss */
 footer #footer-link {
   display: inline-block;
   float: right;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 192, ../sass/music_introduction.scss */
+/* line 196, ../sass/music_introduction.scss */
 footer #footer-link .footer-list {
   float: right;
   width: 150px;
@@ -224,13 +228,13 @@ footer #footer-link .footer-list {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 200, ../sass/music_introduction.scss */
+/* line 204, ../sass/music_introduction.scss */
 footer #footer-link .footer-link {
   text-decoration: none;
   color: white;
   width: 50px;
 }
-/* line 206, ../sass/music_introduction.scss */
+/* line 210, ../sass/music_introduction.scss */
 footer #copyright {
   width: 50%;
   height: 20px;
