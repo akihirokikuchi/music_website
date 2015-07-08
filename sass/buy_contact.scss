@@ -1,0 +1,212 @@
+@import "compass";
+
+
+
+
+body{
+  @include background(
+  linear-gradient(top left, rgba(188,200,213,0.75),rgba(15,82,188,0.75))//,
+  //radial-gradient(#c00, #fff 100px)
+  );
+  max-width:1000px;
+  margin:0 auto;
+}
+
+
+header{
+  width:100%;
+  min-width:810px;
+  height:150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color:rgba(79,180,108,0.4);
+    width:270px;
+    height:60px;
+    margin-top: 25px;
+  }
+  #nav{
+    ul{
+      display: inline-block;
+      float:right;
+      //margin-bottom: 50px;
+      width:500px;
+      height:100px;
+      margin-top:70px;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
+      }
+    }
+  }
+}
+
+
+
+#contents-top{
+  clear:both;
+//  background:orange;
+  width:80%;
+  min-width:650px;
+  max-width: 650px;
+  margin:auto;
+  margin-bottom:250px;
+  #buy-title{
+    text-align:center;
+    background-color: #f8f;
+    color:#3A322B;
+    padding:10px;
+    border:5px ridge gray;
+    @include border-radius(50%);
+  }
+  span{
+    color:red;
+  }
+  .float-left{
+    float:left;
+    width:500px;
+    margin-top:50px;
+  }
+  .clear{
+    clear:both;
+  }
+  .float-right-solo{
+    float:right;
+    width:40px;
+    margin-bottom:100px;
+
+  }
+  .float-left-under{
+    //clear: both;
+    float:right;
+    width:500px;
+    margin-right:40px;
+    margin-top:50px;
+
+  }
+  .route{
+    background:#47EA7E;
+    color:black;
+    width:150px;
+    height:100px;
+    margin-left:5px;
+    margin-bottom:20px;
+    padding:5px;
+    border:1px solid gray;
+    text-align:center;
+    @include border-radius(10px);
+  }
+  #route1,#route2,#route3{
+  }
+  .yazirushi{
+    margin:1px;
+    //background: #ddd;
+    height:100px;
+    width:50px;
+    font-size:40px;
+    line-height:100px;
+    font-weight: bold;
+  }
+  #yazirushi3{
+    margin-right:100px;
+  }
+  #yazirushi4{
+    margin-top: 50px;
+  }
+  #yazirushi1,#yazirushi2{
+    margin-left:15px;
+    margin-top:50px;
+  }
+}
+
+
+#contents-bottom{
+  clear:both;
+  background: #D7D88C;
+  width:60%;
+  min-width:500px;
+  margin:auto;
+  margin-bottom:100px;
+  border:1px solid black;
+  @include border-radius(10px);
+  #contact{
+    text-align: center;
+  }
+  #contact-form{
+    text-align: center;
+    p{
+      margin-bottom:40px;
+    }
+    #submit{
+      margin-left:30px;
+    }
+  }
+}
+
+
+
+footer{
+  width:100%;
+  min-width:700px;
+  max-width:1000px;
+  height:50px;
+  background-color: black;
+  margin-top:30px;
+  position:fixed;
+  bottom:0;
+  margin:auto;
+    #mail{
+
+      color:white;
+      font-size:13px;
+      letter-spacing: 1px;
+      float:left;
+      width:45%;
+      height:25px;
+      margin-left: 10px;
+    }
+    #footer-link{
+      display:inline-block;
+      float:right;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
+    }
+    #copyright{
+      width:50%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      float:right;
+      margin-right:15%;
+      letter-spacing:2px;
+      clear:both;
+    }
+}

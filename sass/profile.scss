@@ -1,0 +1,203 @@
+@import "compass";
+
+
+
+
+body{
+  @include background(
+  linear-gradient(top left, rgba(188,200,212,0.75),rgba(15,82,188,0.75)),
+  radial-gradient(#6cc, #fff 100px)
+  );
+  max-width:1000px;
+  margin:0 auto;
+}
+
+
+
+
+
+header{
+  width:100%;
+  min-width:810px;
+  height:150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color:rgba(79,180,108,0.4);
+    width:270px;
+    height:60px;
+    margin-top: 25px;
+  }
+  #nav{
+    ul{
+      display: inline-block;
+      float:right;
+      width:500px;
+      height:100px;
+      margin-top:70px;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+#contents{
+  width:80%;;
+  margin:auto;
+  #main-title{
+    clear:both;
+    width:68%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:50px;
+    padding:10px;
+    @include background(
+    linear-gradient(top left,white,#f8f,#E50076));
+    border:10px ridge  green;
+  }
+  .column{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border:1px double black;
+  }
+  .sub-title{
+    margin-left:20px;
+  }
+  #histroy{
+    @include background(radial-gradient(#DDDED3,yellow 500px));
+    p{
+      width:75%;
+      margin:auto;
+      margin-bottom:20px;
+    }
+  }
+
+
+
+  #hobby {
+    @include background(radial-gradient(#D6B641, #FF5E19 500px));
+//    background: #ddd;
+    #hobby-lists{}
+      .hobby-list{
+        width:80%;
+        margin:auto;
+        margin-bottom:15px;
+        list-style-type: square;
+      }
+  }
+
+
+
+
+  #dtm{
+    @include background(radial-gradient(#CFE2D4,#cc9 500px));
+    #dtm-lists{}
+      .dtm-list{
+        width:80%;
+        margin:auto;
+        margin-bottom:15px;
+        list-style-type: square;
+      }
+  }
+
+
+
+}
+
+
+
+#link-section{
+  float:right;
+  margin-right: 80px;
+  margin-bottom:50px;
+  padding:5px 0;
+  #music-page-link{
+    display:inline-block;
+    background:#711A53;
+    color:white;
+    text-decoration: none;
+    width:240px;
+    height:80px;
+    line-height:80px;
+    text-align: center;
+    border:1px solid black;
+    @include border-radius(50% 50% 30px 30px);
+  }
+  #music-page-link:hover{
+    color:black;
+    border:1px double yellow;
+    background:#DD84E0;
+  }
+}
+
+
+
+footer{
+  clear:both;
+  width:100%;
+  min-width:700px;
+  height:50px;
+  background-color: black;
+  margin-top:30px;
+//  position:fixed;
+  bottom:0;
+    #mail{
+      color:white;
+      font-size:13px;
+      letter-spacing: 1px;
+      float:left;
+      width:45%;
+      height:25px;
+      margin-left: 10px;
+    }
+    #footer-link{
+      display:inline-block;
+      float:right;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
+    }
+    #copyright{
+      width:50%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      float:right;
+      margin-right:15%;
+      letter-spacing:2px;
+      clear:both;
+    }
+}

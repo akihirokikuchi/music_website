@@ -1,0 +1,165 @@
+@import "compass";
+
+
+
+
+body{
+  @include background(
+  linear-gradient(top left, rgba(188,200,212,0.75),rgba(15,82,188,0.75)),
+  radial-gradient(#6cc, #fff 100px)
+  );
+  max-width:1000px;
+  margin:0 auto;
+}
+
+
+
+
+
+header{
+  width:100%;
+  min-width:810px;
+  height:150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color:rgba(79,180,108,0.4);
+    width:270px;
+    height:60px;
+    margin-top: 25px;
+  }
+  #nav{
+    ul{
+      display: inline-block;
+      float:right;
+      width:500px;
+      height:100px;
+      margin-top:70px;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
+      }
+    }
+  }
+}
+
+
+
+#title{
+  clear:both;
+  color:white;
+  @include background(radial-gradient(red,yellow,orange,silver));
+  @include text-shadow(rgba(blue, 0.2) 1px 1px 0, rgba(blue, 0.2) 2px 2px 0, rgba(blue, 0.2) 3px 3px 0);
+  text-align: center;
+  height:80px;
+  width:60%;
+  line-height: 80px;
+  margin:auto;
+  padding:1px;
+  border:2px solid black;
+  @include border-radius(10px 10px 0 0);
+}
+#top-text{
+  background: #ddd;
+  text-align:center;
+  width:60%;
+  margin:auto;
+  margin-bottom: 50px;
+  padding:1px;
+  border:2px solid black;
+  @include border-radius(0 0 10px 10px);
+}
+
+.column{
+  width:80%;
+  margin:auto;
+  margin-bottom:70px;
+  @include background(linear-gradient(yellow white));
+  padding:2px;
+  border:1px solid black;
+  @include border-radius(30px);
+  .sub-title{
+    margin-left:30px;
+    a{
+      color:black;
+      text-decoration: none;
+    }
+  }
+  .sub-text{
+    margin-left:40px;
+  }
+}
+
+#last{
+  margin-bottom:150px;
+}
+
+
+
+
+
+
+
+footer{
+  clear:both;
+  width:100%;
+  min-width:700px;
+  height:50px;
+  background-color: black;
+  margin-top:30px;
+//  position:fixed;
+//  bottom:0;
+    #mail{
+      color:white;
+      font-size:13px;
+      letter-spacing: 1px;
+      float:left;
+      width:45%;
+      height:25px;
+      margin-left: 10px;
+    }
+    #footer-link{
+      display:inline-block;
+      float:right;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
+    }
+    #copyright{
+      width:50%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      float:right;
+      margin-right:15%;
+      letter-spacing:2px;
+      clear:both;
+    }
+}

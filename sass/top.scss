@@ -1,0 +1,175 @@
+@import "compass";
+
+
+body{
+  @include background(
+  linear-gradient(top left, rgba(188,200,213,0.75),rgba(15,82,188,0.75)),
+  radial-gradient(#c00, #fff 100px)
+  );
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+header{
+  width:100%;
+  min-width:810px;
+  height:150px;
+  background-image: url("../images/music-668859_1280.jpg");
+  background-size: cover;
+  @include opacity(0.7);
+  #logo{
+    float:left;
+    background-color:rgba(79,180,108,0.4);
+    width:270px;
+    height:60px;
+    margin-top: 25px;
+  }
+  #nav{
+    ul{
+      display: inline-block;
+      float:right;
+      //margin-bottom: 50px;
+      width:500px;
+      height:100px;
+      margin-top:70px;
+      li{
+        display: inline-block;
+        width:160px;
+        font-size:20px;
+        letter-spacing: 1px;
+        text-align: center;
+        list-style: none;
+        line-height:45px;
+        background-color:black;
+        @include border-radius(10px);
+        .navigation{
+          text-decoration: none;
+          text-weight:bold;
+          color:white;
+          padding:20 20 10 20;
+        }
+      }
+    }
+  }
+}
+
+
+#contents-top{
+  width:100%;
+  position:relative;
+  #main-image{
+    margin-top:5px;
+    display:none;
+  }
+    #catch-copy{
+      color:white;
+      padding-right:10px;
+      font-family:cursive;
+      position:absolute;
+      bottom:0;
+      right:5%;
+      font-size:64px;
+      display:none;
+    }
+}
+
+
+#contents-bottom{
+  background-color: rgb(207,226,212);
+  width:700px;
+  height:1400px;
+  margin:auto;
+  border:1px double black;
+  h1{
+    color:black;
+    font-size:40px;
+    //padding-left:20px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  .column{
+    margin-left:70px ;
+    margin-right:70px;
+  }
+  .music-name{
+    font-size:20px;
+    padding-bottom: 10px;
+    margin-left:15px;
+  }
+  .explain {
+    margin-bottom: 10px;
+    margin-left: 10px
+  }
+  .music{
+    padding-left: 10px;
+  }
+}
+
+#music-page{
+  background:green;
+  font-size:40px;
+  color:white;
+  text-decoration: none;
+  padding:8px;
+  float:right;
+  width:300px;
+  margin-right:40px;
+  margin-top:40px;
+  border:1px solid yellow;
+  @include border-radius(10px);
+  @include box-shadow(0 0 10px black);
+}
+
+#music-page:hover{
+  @include box-shadow(none);
+  color:yellow;
+}
+
+
+footer{
+  width:100%;
+  min-width:700px;
+  height:50px;
+  background-color: black;
+  margin-top:30px;
+    #mail{
+
+      color:white;
+      font-size:13px;
+      letter-spacing: 1px;
+      float:left;
+      width:45%;
+      height:25px;
+      margin-left: 10px;
+    }
+    #footer-link{
+      display:inline-block;
+      float:right;
+      margin-top: 0;
+      margin-bottom: 0;
+      .footer-list{
+        float:right;
+        width:150px;
+        height:25px;
+        list-style:none;
+        font-size:15px;
+        margin-right: 10px;
+        }
+        .footer-link{
+          text-decoration: none;
+          color:white;
+          width:50px;
+        }
+    }
+    #copyright{
+      width:50%;
+      height:20px;
+      color:white;
+      font-size:11px;
+      float:right;
+      margin-right:15%;
+      letter-spacing:2px;
+      clear:both;
+    }
+}

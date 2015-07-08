@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>my music</title>
+    <link href="stylesheets/top.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="images/music_page_header_logo_03.png">
+      <div id="nav">
+        <ul>
+          <li><a class="navigation" href="top_page.html">ホーム</a></li>
+          <li><a class="navigation" href="music_introduction.html">音源一覧</a></li>
+          <li><a class="navigation" href="profile.html">プロフィール</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="contents-top">
+      <img height="400px" id="main-image" src="images/cello-110981_1280.jpg" width="100%">
+        <h1 id="catch-copy">見つかる 音楽</h1>
+      </img>
+    </div>
+    <div id="contents-bottom">
+      <h1>♪ sample music &amp; movie ♪</h1>
+      <div class="column">
+        <p class="music-name">SOMEDAY</p>
+        <audio class="music" controls src="musics/Someday.wav"></audio>
+        <p class="explain">歌もの。MISIAのEverythingをモチーフにしたバラードです。提供した楽曲のため、外部での使用はできません。</p>
+      </div>
+      <br>
+      <div class="column">
+        <p class="music-name">遊星よりあいをこめて</p>
+        <audio class="music" controls src="musics/遊星よりあいをこめて.mp3"></audio>
+        <p class="explain">プラネタリウム用に作った曲です。秋から冬にかけての星空をイメージしました。電子音が主体というわけではありませんが、ジャンルとしてはエレクトロニカです。ちなみにタイトルの元ネタはウルトラセブンですが、まったく関係はありません。</p>
+      </div>
+      <br>
+      <div class="column">
+        <p class="music-name">サムとエニー</p>
+        <video class="music" controls height="330px" src="videos/some_and_any.mov" width="450px"></video>
+        <p class="explain">大学４年の時に作ったピクチャー・ストーリーです。音楽を何人かで分担しています。僕は最初の曲と、未来人が来たときの曲を担当しました。ついでにシナリオを書いて監督もやりました。『サムとエニー』というタイトルは英単語の『Some』と『Any』から取っています。</p>
+      </div>
+      <p><a href="music_introduction.html" id="music-page">音源のページへ</a></p>
+    </div>
+    <footer>
+      <text id="mail">mail: akihiro.kikuchi@engraphia.com</text>
+      <ul id="footer-link">
+        <li class="footer-list"><a class="footer-link" href="buy_contact.html">ご購入までの流れ</a></li>
+        <li class="footer-list"><a class="footer-link" href="site_map.html">このサイトについて</a></li>
+      </ul>
+      <text id="copyright">copyright©2015 akihiro.kikuchi</text>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(function(){
+      $('#main-image').fadeIn(2500);
+      $('#catch-copy').fadeIn(2500);
+      $('#catch-copy').mouseover(function()
+      {$(this).animate({"right" :"10%"},500)
+      });
+      $('#catch-copy').mouseout(function()
+      {$(this).animate({"right":"5%"},500)
+      });
+      $('.navigation').mouseover(function()
+      {$(this).animate({"opacity":"0.7"},100)
+      });
+      $('.navigation').mouseout(function()
+      {$(this).animate({"opacity":"1.0"},50)
+      });
+      });
+    </script>
+  </body>
+</html>

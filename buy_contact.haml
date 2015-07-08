@@ -1,0 +1,71 @@
+!!!
+%html(lang="ja")
+
+  %head
+    %meta(charset="utf-8")
+    %title ご購入までの流れについて
+    %link(rel="stylesheet" type="text/css" href="stylesheets/buy_contact.css")
+
+
+  %body
+    %header
+      %img#logo(src="images/music_page_header_logo_03.png")
+      #nav
+        %ul
+          %li<
+            %a.navigation(href="top_page.html") ホーム
+          %li<
+            %a.navigation(href="music_introduction.html") 音源一覧
+          %li<
+            %a.navigation(href="profile.html") プロフィール
+
+
+    #contents-top
+      %h1#buy-title ご購入までの流れ
+      #route1.route.float-left
+        %span使いたい音源を選ぶ
+      #yazirushi1.yazirushi.float-left →
+      #route2.route.float-left
+        %span>メール
+        、
+        %span>お問い合わせフォーム
+        から連絡をお願いします
+      #yazirushi2.yazirushi.float-left →
+      #route3.route.float-left
+        お支払いの方法は
+        %span銀行振込
+        となります。詳しくはメールにてお知らせします
+      .clear
+      #yazirushi3.yazirushi.float-right-solo ↓
+      .clear
+      #route4.route.float-left-under お支払いを確認した瞬間から楽曲を使用できます
+      #yazirushi4.yazirushi.float-left-under ←
+      #route5.route.float-left-under BGMそのままの転売以外ならお好きに使っていただけます
+
+    #contents-bottom
+      %h1#contact お問い合わせ
+      %form#contact-form(action="mailto:akihiro.kikuchi@engrapia.com" method="post")
+
+
+        %p#name
+          名前:
+          %input(type="text" name="name" placeholder="名前" size="25")
+        %p#email
+          email:
+          %input(type="email" name="email" placeholder="メールアドレス" size="25")
+        %p#comment
+          本文:
+          %textarea(name="comment" col="50" row="5" placeholder="本文" size="40")
+        %p#submit
+          %input(type="submit" name="submit" value="送信")
+          %input(type="reset" name="reset" value="リセット")
+
+
+    %footer
+      %text#mail mail: akihiro.kikuchi@engraphia.com
+      %ul#footer-link
+        %li.footer-list<
+          %a.footer-link(href="buy_contact.html") ご購入までの流れ
+        %li.footer-list<
+          %a.footer-link(href="site_map.html") このサイトについて
+      %text#copyright  copyright©2015 akihiro.kikuchi
