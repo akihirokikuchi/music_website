@@ -208,6 +208,8 @@
       %a#how-to-buy-bottom(href="buy_contact.html") 購入までの流れについて
 
 
+
+
     %footer
       %text#mail mail: akihiro.kikuchi@engraphia.com
       %ul#footer-link
@@ -227,5 +229,20 @@
       $('#contents-top').css("display","none");
       $('#contents-top').fadeIn('2500')
 
+
+      $('.navigation').mouseover(
+      function(){$(this).animate({'font-size' : '25px'});
+      });
+      $('.navigation').mouseout(
+      function(){$(this).animate({'font-size' : '20px'});
+      });
+
+
+      $('#page-link a').click(function(){
+      var href = $(this).attr('href');
+      var position = $(href).offset().top;
+      $('html , body').animate({scrollTop:position},500,'swing');
+      return false;
+      });
 
       });

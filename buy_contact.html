@@ -66,5 +66,16 @@
       </ul>
       <text id="copyright">copyright©2015 akihiro.kikuchi</text>
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(function(){
+      $('.navigation').mouseover(
+      function(){$(this).animate({'font-size' : '25px'});
+      });
+      $('.navigation').mouseout(
+      function(){$(this).animate({'font-size' : '20px'});
+      });
+      });
+    </script>
   </body>
 </html>

@@ -135,21 +135,6 @@
 
 
 
-    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
-    %script
-      $(function(){
-
-      $('.p-link').hover(
-      function(){$(this).fadeTo(0, 0.6).fadeTo('normal', 1.0);},
-      function(){$(this).fadeTo('fast', 1.0);}
-      );
-
-      });
-
-
-
-
-
     %footer
       %text#mail mail: akihiro.kikuchi@engraphia.com
       %ul#footer-link
@@ -158,3 +143,36 @@
         %li.footer-list<
           %a.footer-link(href="site_map.html") このサイトについて
       %text#copyright  copyright©2015 akihiro.kikuchi
+
+
+
+
+    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    %script
+      $(function(){
+
+
+      $('.p-link').hover(
+      function(){$(this).fadeTo(0, 0.6).fadeTo('normal', 1.0);},
+      function(){$(this).fadeTo('fast', 1.0);}
+      );
+
+
+      $('.p-link a').click(function(){
+      var href= $(this).attr('href');
+      var position = $(href).offset().top;
+      $('html, body').animate({scrollTop:position}, 500, 'swing');
+      return false;
+      });
+
+
+
+      $('.navigation').mouseover(
+      function(){$(this).animate({'font-size' : '25px'});
+      });
+      $('.navigation').mouseout(
+      function(){$(this).animate({'font-size' : '20px'})
+      });
+
+
+      });

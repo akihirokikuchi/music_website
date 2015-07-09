@@ -61,3 +61,17 @@
         %li.footer-list<
           %a.footer-link(href="site_map.html") このサイトについて
       %text#copyright  copyright©2015 akihiro.kikuchi
+
+
+    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    %script
+      $(function(){
+
+      $('.navigation').mouseover(
+      function(){$(this).animate({'font-size' : '25px'});
+      });
+      $('.navigation').mouseout(
+      function(){$(this).animate({'font-size' : '20px'})
+      });
+
+      });

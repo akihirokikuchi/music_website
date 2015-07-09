@@ -61,11 +61,11 @@
       $('#catch-copy').mouseout(function()
       {$(this).animate({"right":"5%"},500)
       });
-      $('.navigation').mouseover(function()
-      {$(this).animate({"opacity":"0.7"},100)
+      $('.navigation').mouseover(
+      function(){$(this).animate({'font-size' : '25px'});
       });
-      $('.navigation').mouseout(function()
-      {$(this).animate({"opacity":"1.0"},50)
+      $('.navigation').mouseout(
+      function(){$(this).animate({'font-size' : '20px'})
       });
       });
     </script>
