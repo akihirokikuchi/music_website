@@ -214,6 +214,8 @@
       %text#mail mail: akihiro.kikuchi@engraphia.com
       %ul#footer-link
         %li.footer-list<
+          %a.footer-link#page-top(href="#logo") ページのトップへ
+        %li.footer-list<
           %a.footer-link(href="buy_contact.html") ご購入までの流れ
         %li.footer-list<
           %a.footer-link(href="site_map.html") このサイトについて
@@ -245,4 +247,10 @@
       return false;
       });
 
+      $('.footer-list #page-top').click(function(){
+      var href = $(this).attr('href');
+      var position = $(href).offset().top;
+      $('html , body').animate({scrollTop:position},750,'swing');
+      return false;
+      });
       });
