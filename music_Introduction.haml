@@ -135,6 +135,7 @@
 
 
 
+
     %footer
       %text#mail mail: akihiro.kikuchi@engraphia.com
       %ul#footer-link
@@ -143,7 +144,6 @@
         %li.footer-list<
           %a.footer-link(href="site_map.html") このサイトについて
       %text#copyright  copyright©2015 akihiro.kikuchi
-
 
 
 
@@ -157,12 +157,12 @@
       function(){$(this).fadeTo('fast', 1.0);}
       );
 
-
       $('.p-link a').click(function(){
       var href= $(this).attr('href');
       var position = $(href).offset().top;
       $('html, body').animate({scrollTop:position}, 500, 'swing');
       return false;
+
       });
 
 
