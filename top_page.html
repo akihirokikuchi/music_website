@@ -68,6 +68,22 @@
       {$(this).animate({'font-size' : '20px'})
       });
       });
+      $(function() {
+      setTimeout('rect()');
+      });
+      function rect(){
+      $("#music-page").mouseover(function(){
+      $(this).animate({
+      fontSize : "37px"
+      },500).animate({
+      fontSize : "40px"
+      },500);
+      });
+      $("#music-page").mouseout(function(){
+      $(this).stop(true,true);
+      });
+      setTimeout("rect()",300);
+      }
     </script>
   </body>
 </html>
